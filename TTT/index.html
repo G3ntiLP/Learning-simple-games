@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="tictactoe_logo.ico">
+</head>
+<body>
+    <div id="container" class="hidden">
+        <h1>Tic Tac Toe</h1>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText" ></h2>
+        <button onclick="resetGame()">Restart</button>
+    </div>
+    <br>
+    <div id="selectScreen">
+        <h1>Tic Tac Toe</h1>
+        <h2>Choose your player</h2>
+        <div id="selectPlayer">
+            <div playerIndex="0" class="player">X</div>
+            <div playerIndex="1" class="player">O</div>
+        </div>
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>
+

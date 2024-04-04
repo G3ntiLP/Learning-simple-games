@@ -1,0 +1,71 @@
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    border-color: white;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size:50px;
+    cursor: pointer;
+}
+
+.player{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    border-color: white;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size:50px;
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+#selectPlayer{
+    width: 225px;
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    margin: auto;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 75px;
+}
+
+#container{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: "Permanent Marker", cursive;
+}
+
+.X-wins{
+    background-color: red;
+}
+
+.O-wins{
+    background-color: blue;
+}
+
+.draw{
+    background-color: grey;
+}
+
+
+a:link {color:white;}
+a:visited {color:white;}
+a:hover {color:white;}
